@@ -2,7 +2,6 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Footer from './componentes/footer/Footer'
 import Navbar from './componentes/navbar/Navbar'
 import ListarCategorias from './componentes/categorias/listarcategorias/ListarCategorias'
 import FormCategoria from './componentes/categorias/formcategoria/FormCategoria'
@@ -11,6 +10,7 @@ import { ToastContainer } from 'react-toastify'
 
 import 'react-toastify/dist/ReactToastify.css';
 import Home from './pages/home/Home'
+import Footer from './componentes/footer/footer'
 
 function App() {
   return (

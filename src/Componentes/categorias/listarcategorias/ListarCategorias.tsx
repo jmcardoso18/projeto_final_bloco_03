@@ -1,8 +1,9 @@
 ﻿import { useState, useEffect } from 'react'
 import type Categoria from '../../../models/Categoria'
-import CardCategorias from '../cardcategorias/CardCategorias'
+
 import { SyncLoader } from 'react-spinners'
 import { listar } from '../../../services/Service'
+import CardCategorias from '../cardcategorias/CardCategorias'
 
 function ListarCategorias() {
 	const [categorias, setCategorias] = useState<Categoria[]>([])
