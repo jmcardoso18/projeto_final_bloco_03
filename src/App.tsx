@@ -7,11 +7,10 @@ import Navbar from './componentes/navbar/Navbar'
 import FormCategoria from './componentes/categorias/formcategoria/FormCategoria'
 import DeletarCategoria from './componentes/categorias/deletarcategorias/DeletarCategoria'
 import { ToastContainer } from 'react-toastify'
-
 import 'react-toastify/dist/ReactToastify.css';
 import Home from './pages/home/Home'
 import ListarCategorias from './componentes/categorias/listarcategorias/ListarCategorias'
-import Footer from './componentes/footer/footer'
+import Footer from './componentes/footer/Footer'
 
 
 function App() {
