@@ -1,4 +1,4 @@
-import ListarCategorias from "../../Componentes/categorias/listarcategorias/ListarCategorias"
+import ListarCategorias from "../../componentes/categorias/listarcategorias/ListarCategorias"
 
 function Home() {
     return (

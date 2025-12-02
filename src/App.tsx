@@ -2,15 +2,15 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Footer from './Componentes/footer/footer'
-import Navbar from './Componentes/navbar/Navbar'
-import Home from './pages/Home/Home'
-import ListarCategorias from './Componentes/categorias/listarcategorias/ListarCategorias'
-import FormCategoria from './Componentes/categorias/formcategoria/FormCategoria'
-import DeletarCategoria from './Componentes/categorias/deletarcategorias/DeletarCategoria'
+import Footer from './componentes/footer/footer'
+import Navbar from './componentes/navbar/Navbar'
+import ListarCategorias from './componentes/categorias/listarcategorias/ListarCategorias'
+import FormCategoria from './componentes/categorias/formcategoria/FormCategoria'
+import DeletarCategoria from './componentes/categorias/deletarcategorias/DeletarCategoria'
 import { ToastContainer } from 'react-toastify'
 
 import 'react-toastify/dist/ReactToastify.css';
+import Home from './pages/home/Home'
 
 function App() {
   return (
