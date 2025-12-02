@@ -1,73 +1,71 @@
-# React + TypeScript + Vite
+# 📘 Projeto Final -- Bloco 03
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o **Projeto Final do Bloco 03**, desenvolvido
+como parte da trilha de estudos em Desenvolvimento Web e Lógica de
+Programação.\
+O objetivo é aplicar os conhecimentos adquiridos ao longo do módulo,
+incluindo lógica estrutural, organização de arquivos, versionamento com
+Git e práticas básicas de desenvolvimento web.
 
-Currently, two official plugins are available:
+## 🚀 Objetivo do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Construir uma aplicação funcional que demonstre:
 
-## React Compiler
+-   Organização de diretórios e modularização\
+-   Manipulação de dados\
+-   Construção de interfaces funcionais\
+-   Aplicação de lógica de programação\
+-   Uso correto do Git e GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧠 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+-   HTML5\
+-   CSS3\
+-   JavaScript\
+-   PHP\
+-   MySQL\
+-   Git & GitHub
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📂 Estrutura do Repositório
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+projeto_final_bloco_03/ ├── src/ │ ├── assets/ │ ├── scripts/ │ ├──
+styles/ │ └── ... ├── README.md ├── .gitignore └── index.html (ou
+arquivo inicial equivalente)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🧩 Funcionalidades
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+-   [x] Estrutura de projeto organizada\
+-   [x] Páginas estruturadas\
+-   [x] Lógica aplicada conforme requisitos do bloco\
+-   [x] Integração backend\
+-   [x] Banco de dados
+
+## 🛠 Como Executar o Projeto
+
+### 1️⃣ Clone o repositório
+
+``` bash
+git clone https://github.com/jmcardoso18/projeto_final_bloco_03
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2️⃣ Abra o projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+-   Para HTML/CSS/JS → abra `index.html`\
+-   Para PHP → mova para o servidor local\
+-   Para MySQL → importe o script, se existir
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🎯 Aprendizados do Bloco
+
+-   Organização de código\
+-   Git/GitHub\
+-   Construção de páginas\
+-   Lógica aplicada
+
+## 👩‍💻 Autora
+
+**Jamila Moraes Cardoso**\
+GitHub: https://github.com/jmcardoso18
+
+## 📄 Licença
+
+Uso livre para fins educacionais.
