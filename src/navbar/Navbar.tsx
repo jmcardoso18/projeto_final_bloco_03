@@ -1,4 +1,5 @@
-import { HandbagIcon, Link, MagnifyingGlassIcon, UserIcon } from "@phosphor-icons/react"
+import {MagnifyingGlassIcon} from "@phosphor-icons/react"
+import { Link } from "react-router-dom"
 
 function Navbar() {
     return (
@@ -7,13 +8,16 @@ function Navbar() {
                 <div className="container flex items-center justify-between gap-6 text-lg mx-8">
 
                     {/* LOGO */}
+
+                    <Link to='/home' className="text-2xl font-bold">
                     <img
                             src="https://ik.imagekit.io/u0isfvxls/PG/logot.png"
                             alt="Logo Navbar"
-                            style={{
-                                width: "10%"
-                            }}
+                            className="h-14 w-auto object-contain block"
                         />
+                    
+                    </Link>
+                    
 
                     {/* BARRA DE BUSCA */}
                     <form
