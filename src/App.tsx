@@ -2,7 +2,7 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Footer from './componentes/footer/footer'
+import Footer from './componentes/footer/Footer'
 import Navbar from './componentes/navbar/Navbar'
 import ListarCategorias from './componentes/categorias/listarcategorias/ListarCategorias'
 import FormCategoria from './componentes/categorias/formcategoria/FormCategoria'
