@@ -1,4 +1,4 @@
-import {MagnifyingGlassIcon} from "@phosphor-icons/react"
+import {HandbagIcon, MagnifyingGlassIcon, UserIcon} from "@phosphor-icons/react"
 import { Link } from "react-router-dom"
 
 function Navbar() {
@@ -9,9 +9,9 @@ function Navbar() {
 
                     {/* LOGO */}
 
-                    <Link to='/home' className="text-2xl font-bold">
+                    <Link to='/' className="text-2xl font-bold">
                     <img
-                            src="https://ik.imagekit.io/u0isfvxls/PG/logot.png"
+                            src="https://ik.imagekit.io/u0isfvxls/PG/logot.png?updatedAt=1764682498374"
                             alt="Logo Navbar"
                             className="h-14 w-auto object-contain block"
                         />
@@ -45,13 +45,37 @@ function Navbar() {
                     </form>
 
                     {/* LINKS MENU */}
-                    <div className="flex items-center gap-6 whitespace-nowrap">
-                        <span>Produtos</span>
-                        <span>Categorias</span>
-                        <span>Cadastrar categorias</span>
-                        <span>Perfil</span>
-                        <span>Sair</span>
-                    </div>
+				<div className="flex items-center gap-6 text-sm sm:text-base font-medium">
+                    <span>Produtos</span>
+
+                    <Link to="/categorias" className="hover:text-rose-400 cursor-pointer transition">
+					    Categorias
+                    </Link>
+
+                    <Link to="/cadastrocategoria" className="hover:text-rose-400 cursor-pointer transition">
+					    Cadastrar categoria
+                    </Link>
+
+                    <Link to="" className="hover:text-rose-400 cursor-pointer transition">
+					    Sair
+                    </Link>
+
+                    <Link to="" className="flex items-center">
+						<UserIcon
+							size={28}
+							weight="bold"
+							className="hover:text-rose-400 cursor-pointer transition"
+						/>
+					</Link>
+
+					<Link to="">
+						<HandbagIcon
+							size={28}
+							weight="bold"
+							className="hover:text-rose-400 cursor-pointer transition"
+						/>
+					</Link>
+				</div>
                 </div>
             </div>
         </>
